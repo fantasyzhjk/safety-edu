@@ -1,0 +1,17 @@
+[package]
+name = "safety-edu"
+version = "0.1.0"
+authors = ["fantasyzhjk <fantasyzhjk@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.7", features = ["blocking", "json"] }
+paris = { version = "1.5.8", features = ["macros"] }
+indicatif = "0.16.2"
+json = "0.12.4"
+rand = "0.8.4"
+chrono = "0.4.19"
+docopt = "1.1.1"
+termsize = "0.1.6"
